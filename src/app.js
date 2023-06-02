@@ -25,7 +25,7 @@ app.use(fileUpload());
 app.use(cors({
     credentials:true,
     origin: "https://mytech-shop.vercel.app"
-}));
+}));//https://mytech-shop.vercel.app
 
 
 // IMPORTING ALL ROUTERS
